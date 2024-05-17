@@ -1,1 +1,270 @@
+body{
+    margin: 0;
+    padding: o;
+    background-color:rgba(32, 33, 36);
+    width: 100%;
+    overflow-x: hidden;
+}
 
+.form-container {
+  width: 500px;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.submit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.logo img{
+   width: 8%;
+   height: auto;
+   float: left;
+   position: absolute; top: 24pt; left: -8pt; 
+  }
+
+header{
+  padding: 4.688em;
+  background: linear-gradient(180deg, rgb(50, 50, 50), rgb(70, 70, 70), rgb(33, 33, 39));
+  display: flex;
+}
+
+h1{
+    position: absolute; top: 18pt; left: 85pt; 
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5em;
+}
+
+nav{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+    border: 0.125em ;
+    background-color: gray;
+}
+li{
+    float: right;
+    margin-top: -0.938em;
+}
+ li a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 2.5em;
+    
+}
+li a:hover{
+    background: gray ;
+    text-transform: uppercase;
+}
+h2{
+    color: white;
+    margin-left: 0.625em;
+    
+}
+h3{
+    color: white;
+    margin-left: 1.125em;
+    float: left;
+}
+
+    div.gallery:hover {
+      border: 0.063em solid gray;
+    }
+    div.gallery {
+      margin: 0.625em;
+      width: 70.875em;
+      float:left ;
+      border: 0.063em solid #fffafa;
+      
+      
+    }
+    
+   
+    div.desc {
+      padding: 0.625em;
+      text-align: center;
+      color: white;
+      font-size: 1.25em;
+      background: linear-gradient(180deg,rgb(47, 46, 46) , rgb(127, 120, 120),rgb(33, 33, 39) );
+    }
+    .cards{
+        display: flex;
+        padding: 150px;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: -150px;
+        height: 400px;
+        margin-top: -170px;
+        margin-bottom: 0;
+        overflow-x: scroll;
+        white-space: nowrap;
+      }
+      .cards .gallery img{
+        width: 100%;
+        height: 85%;
+        margin: 0;
+      }
+      .cards .gallery{
+        padding: ;
+      }
+      
+      .Element{
+        margin-bottom: 1rem;
+      }
+
+   .container{
+    height: 37.5em;
+    width: 25em;
+    margin: 6.25em auto;
+    
+   }
+   .container form {
+    height: 18.75em;
+    width: 25em;
+    text-transform: capitalize;
+    color: white;
+    border-radius: 2.5em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(180deg,rgb(70, 70, 70) , rgb(127, 120, 120),rgb(33, 33, 39) );
+    text-align: center;
+   }
+   input[type=submit] {
+    background-color:gray;
+    color: white;
+    padding: 0.75em 0.938em;
+   border: none;
+    border-radius: 0.125em;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background:gray ;
+    text-transform: uppercase;
+  }
+ .newsletter-form{
+  background: linear-gradient(180deg,rgb(70, 70, 70) , rgb(127, 120, 120),rgb(33, 33, 39) );
+  text-align: center;
+  padding: 2.5em;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .newsletter-form h3{
+  text-transform: uppercase;
+  width: 100%;
+  color: white;
+  text-align: center;
+ }
+ .newsletter-form p{
+  padding: 0.625em 0;
+  font-size: 0.938em;
+  color: white;
+ }
+ .email-input{
+  width: 60%;
+  height: 1.25em;
+  padding: 0.625em;
+  text-align: center;
+  font-size: larger;
+ }
+ #divsocialmedia img{
+  padding: 50px;
+  font-size: 70px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+}
+#divsocialmedia h3{
+  color: white;
+}
+#divsocialmedia :hover{
+  transform: scale(0.9);
+  box-shadow: 0 20px 45px -15px gray;
+}
+footer{
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(180deg,rgb(33, 33, 39) , rgb(127, 120, 120),rgb(70, 70, 70) );
+  padding: 10px;
+  color: white;
+  bottom: 0;
+  width: 100%;
+}
+.foot nav ul{
+  text-decoration: none;
+}
+.section{
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+
+  header {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  h1 {
+    text-align: center; 
+  }
+
+  
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  li {
+    text-align: center; 
+    margin: 10px 0; 
+  }
+
+  .cards {
+    flex-direction: column;
+    overflow-x: auto;
+  }
+
+  .gallery {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  
+
+}
